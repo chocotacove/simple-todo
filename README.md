@@ -17,6 +17,7 @@
 - A simple to-do app that helps you keep a track of things. Made with vanilla JavaScript.
 - Responsive design.
 - Stores todo between sessions.
+- Todos not lost even after refresh.
 - Differentiate todos based on status.
 - Track your life better.
 
