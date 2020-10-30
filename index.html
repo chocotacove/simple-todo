@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <script src="app.js" charset="utf-8" defer></script>
+  <title>Todo List</title>
+</head>
+
+<body>
+  <header>
+    <h1>To-do List</h1>
+  </header>
+  <form>
+    <div id="option">
+      <select name="todo-type" class="filter">
+        <option value="all">All</option>
+        <option value="done">Done</option>
+        <option value="not-done">Yet todo</option>
+      </select>
+
+    </div>
+    <div class="">
+      <input type="text" id="input" />
+      <button type="submit" id="btn">
+        <i class="fas fa-plus-square"></i>
+      </button>
+    </div>
+  </form>
+  <div id="container">
+    <ul id="list"></ul>
+  </div>
+  <footer>
+    <p>Created with <i class="fas fa-heart"></i> by <a href="http://github.com/chocotacove" target="_blank">Vishal Hosamani</a></p>
+  </footer>
+
+</body>
+
+</html>
