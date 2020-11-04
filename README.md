@@ -36,12 +36,12 @@
 ---
 
 ## How To Use
-Use this link to view the hosted project on github pages [here](https://chocotacove.github.io/simple-todo) or https://chocotacove.github.io/simple-todo
+Use this link to view the hosted project on github pages [here](https://vshalt.github.io/simple-todo) or https://vshalt.github.io/simple-todo
 
 ---
 
 ## License
-MIT License.  
+MIT License.
 [Read here](./LICENSE)
 
 ---
